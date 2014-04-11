@@ -126,7 +126,7 @@ os_admin_tenant_name=ci
 use_identity_api_v3=true
 use_neutron=true
 min_transient_cluster_active_time=120
-plugins=vanilla,hdp,idh
+plugins=vanilla,hdp
 [database]
 connection=mysql://savanna-citest:savanna-citest@localhost/savanna?charset=utf8" >> etc/sahara/sahara.conf
 
